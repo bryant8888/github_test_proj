@@ -1,1 +1,3 @@
-console.log('Hello, World!');
+var userName = prompt('Enter user name');
+
+console.log(`Hello, ${userName}!`);
