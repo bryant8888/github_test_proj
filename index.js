@@ -1,8 +1,10 @@
 var userName = prompt('Enter user name');
-
 var secondName = prompt('Enter your second name');
-
 console.log(`Hello, ${userName} ${secondName}!`);
+
+
+document.querySelector('.header__output-name').innerHTML = userName;
+document.querySelector('.header__output-surname').innerHTML = secondName;
 
 
 let firstNumber = prompt('Введите первое число');
@@ -13,3 +15,4 @@ const sumNumber = (firstNumber, secondNumber) => {
 }
 
 sumNumber(firstNumber, secondNumber)
+
