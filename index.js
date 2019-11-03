@@ -7,6 +7,7 @@ document.querySelector('.header__output-name').innerHTML = userName;
 document.querySelector('.header__output-surname').innerHTML = secondName;
 
 
+
 let firstNumber = prompt('Введите первое число');
 let secondNumber = prompt('Введите второе число');
 
